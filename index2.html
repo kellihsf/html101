@@ -2,18 +2,26 @@
 <html>
 
 <head>
-    <title>HTML 101 Part 2</title>
+    <title>HTML Donut Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <h1>The Donut Page!</h1>
-    <p>This is the best donut place in SF: <br>
+    <p id="left_paragraph">This is the <strong>best</strong> donut place in SF: <br>
         <a href="https://www.bobsdonutssf.com/">Bob's Donuts SF</a>
         <br>
         <label>Search for Donut name:</label>
         <input type="text" id="Name" name="Name" placeholder="Enter name" />
     </p>
+    <div>
+        <p id="donutwords">
+            These are words for the paragraph. Short and sweet kinda like a donut. <br>
+            Extra words for fun. Lots o words are hard to come up with. 
+        </p>
+        <hr size="10" noshade>
+    </div>
     <div>
         <p><strong>Select donut type:</strong></p>
         <select name="Donut type">
@@ -27,12 +35,19 @@
         <input type="checkbox" name="enjoysDonuts" value="true">Do you enjoy <i>donuts</i>?
     </div>
     <img src="https://i0.wp.com/triangleonthecheap.com/wordpress/wp-content/uploads/2020/05/donuts-Depositphotos_13309549_s-2019.jpg?fit=1000%2C667&ssl=1"
-        alt="Colorful donuts">
+        alt="Colorful donuts" width= 500px> <br>
     <a href="index.html">Link to Colorado Page</a> <br> <br>
     <a href="index1.html">Index Original</a>
     <button type="button">Click to dispense a donut!</button>
 
-    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <div>
+    <p id="extratext">The HTML <code>button</code> tag defines a clickable button.</p>
+    </div>
+    <div class="thisone">
+        <p>
+          How is this?  
+        </p>
+    </div>
 
     <div>
         <q>The only circle of trust you should have is a donut</q>

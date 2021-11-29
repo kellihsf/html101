@@ -7,3 +7,20 @@ p {
     color:tomato;
 }
 
+#donutwords {
+    border: 5px dotted orange;
+    color:deeppink; 
+    font-family:cursive; 
+}
+
+p, left_paragraph {
+    text-align: left;
+}
+
+p, .thisone {
+    color:peru;
+}
+
+#extratext {
+    color:red;
+}
